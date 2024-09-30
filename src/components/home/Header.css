@@ -1,0 +1,101 @@
+/* Header.css */
+.header {
+  background-color: red;
+  padding: 10px 0;
+  color: white;
+  text-align: center;
+}
+
+.nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column; /* Change to column for mobile layout */
+  align-items: center;
+  gap: 5px; /* Space between icon and text */
+}
+
+.bottom-nav {
+  background-color: rgb(11, 5, 50);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom-nav .nav {
+  display: flex;
+  flex-direction: row; /* Align items horizontally */
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  gap: 3rem;
+}
+
+.bottom-nav .link {
+  font-size: 12px;
+  flex-direction: column; /* Ensure icon is above text */
+  align-items: center;
+}
+
+.label {
+  font-size: 10px; /* Adjust font size for mobile */
+}
+
+/* Mobile Top Tab Navigation */
+.top-nav {
+  background-color: rgb(11, 5, 50);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-around;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.top-nav .nav {
+  display: flex;
+  flex-direction: row; /* Align items horizontally */
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.top-nav .link {
+  font-size: 12px;
+  flex-direction: column; /* Ensure icon is above text */
+  align-items: center;
+}
+
+.top-nav .label {
+  font-size: 10px; /* Adjust font size for mobile */
+}
+
+.desktop {
+  display: none;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+}

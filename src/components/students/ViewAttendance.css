@@ -1,0 +1,114 @@
+.attendance-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .attendance-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .form-group select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .submit-btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .attendance-records {
+    margin-top: 20px;
+  }
+  
+  .attendance-records table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .attendance-records table th,
+  .attendance-records table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .no-records-message {
+    margin-top: 20px;
+    color: #555;
+  }
+  /* Container styling */
+.attendance-container {
+  padding: 2px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+
+}
+
+/* Header */
+.attendance-container h2 {
+  margin-bottom: 16px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Attendance list */
+.attendance-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Attendance record */
+.attendance-record {
+  padding: 16px;
+  margin-bottom: 12px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Attendance info */
+.attendance-info {
+  margin-bottom: 12px;
+  color: #555;
+}
+
+/* Students list */
+.attendance-students {
+  margin-left:-15px;
+}
+
+.student-item {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+/* Status icon */
+.status-icon {
+  margin-right:8px;
+  margin-left:8px;
+}

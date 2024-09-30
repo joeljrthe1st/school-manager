@@ -1,0 +1,113 @@
+/* General container styling for centering */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 5px;
+    background-color: #f5f5f5;
+    
+  }
+  .Event-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 5px;
+    background-color: #f5f5f5;
+    margin-bottom:40px;
+    
+  }
+  .register-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Form styling */
+  .register-form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus,
+  select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Button styling */
+  .register-button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(11, 5, 50);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .register-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .register-button:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    display: block;
+    color: #e74c3c;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  /* Link styling */
+  .text-sm {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .text-sm a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .text-sm a:hover {
+    text-decoration: underline;
+  }
+  
